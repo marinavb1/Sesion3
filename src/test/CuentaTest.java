@@ -38,6 +38,10 @@ class CuentaTest {
 		
 	}
 	
+	void testRetirar() {
+		ctaPruebas.retirar(3000);
+		assertEquals(0, ctaPruebas.getSaldo());
+	}
 	
 	
 	
